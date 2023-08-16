@@ -23,7 +23,7 @@ section{
   box-sizing: border-box;
   color: white;
   width: 230px;
-  padding: 3px 14px;
+  padding: 3px 16.5px;
   font-size: 34px;
   font-weight: bold;
 }
@@ -45,8 +45,16 @@ button{
   color: white;
 }
 
+button:hover{
+  background-color: rgb(25, 25, 25);
+}
+
 .operador{
   background-color: orange;
+}
+
+.operador:hover{
+  background-color: rgb(207, 135, 2);
 }
 
 .cero{
@@ -65,4 +73,13 @@ button{
 
 #ac, #dl{
   background-color: rgb(178, 178, 178);
+  color: black;
+}
+
+#ac:hover{
+  background-color: rgb(142, 142, 142);
+}
+
+#dl:hover{
+  background-color: rgb(142, 142, 142);
 }
