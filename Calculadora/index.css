@@ -11,18 +11,20 @@ section{
 }
 
 #calculadora{
-  width: 232px;
+  width: 282px;
 }
 
 #numeros{
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(50, 50, 50);
   border: none;
+  border-radius: 30px;
   text-align: right;
   margin-bottom: 10px;
   box-sizing: border-box;
   color: white;
-  width: 100%;
-  font-size: 22px;
+  width: 230px;
+  padding: 3px 14px;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -34,11 +36,13 @@ button{
   border-radius: 100%;
   height: 50px;
   width: 50px;
-  font-size: 16px;
+  font-size: 19px;
   box-shadow: none;
   border-width: 0;
-  margin: 1px;
+  margin: 2px;
   cursor: pointer;
+  background-color: rgb(50, 50, 50);
+  color: white;
 }
 
 .operador{
@@ -46,6 +50,19 @@ button{
 }
 
 .cero{
-  width: 100px;
-  border-radius: 50%;
+  width: 107px;
+  border-radius: 30px;
+}
+
+.operadorpunto{
+  background-color: rgb(50, 50, 50);
+}
+
+#ac{
+  width: 107px;
+  border-radius: 30px;
+}
+
+#ac, #dl{
+  background-color: rgb(178, 178, 178);
 }
